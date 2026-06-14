@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agricultura Sustentável</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f9f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    background:#2e7d32;
+    color:white;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+.banner{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.section{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-bottom:50px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section {img src="agricultura.jpg" width="100%" alt="agricultura sustentavel"
+    width:40%;
+    height:300px;
+    object-fit:cover;
+}
+
+.text{
+    padding:20px;
+}
+
+.text h2{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.benefits{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.benefits ul{
+    margin-left:20px;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    .section{
+        flex-direction:column;
+    }
+
+    .section img{
+        width:100%;
+    }
+
+    header h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Agricultura Sustentável</h1>
+    <p>Produzir alimentos preservando o meio ambiente.</p>
+</header>
+
+<img src="agricultura.jpg" alt="Agricultura Sustentável" class="banner">
+
+<div class="container">
+
+    <div class="section">
+        <img src="nascente.jpg" alt="Proteção das Nascentes">
+
+        <div class="text">
+            <h2>🌊 Proteção das Nascentes</h2>
+            <p>
+                As nascentes são fundamentais para o abastecimento de água.
+                Preservar a vegetação ao redor dos rios ajuda a manter a
+                qualidade da água e a biodiversidade.
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <img src="rotacao.jpg" alt="Rotação de Culturas">
+
+        <div class="text">
+            <h2>🌾 Rotação de Culturas</h2>
+            <p>
+                Alternar diferentes plantações reduz o desgaste do solo,
+                melhora a fertilidade natural e diminui a incidência de pragas.
+            </p>
+        </div>
+    </div>
+
+    <div class="benefits">
+        <h2>💚 Benefícios da Agricultura Sustentável</h2>
+        <br>
+
+        <ul>
+            <li>Preservação do solo</li>
+            <li>Uso eficiente da água</li>
+            <li>Redução da erosão</li>
+            <li>Proteção da biodiversidade</li>
+            <li>Maior produtividade a longo prazo</li>
+            <li>Melhor qualidade de vida para as futuras gerações</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        Projeto de Conscientização Ambiental • Agricultura Sustentável 
+    </p>
+</footer>
+
+</body>
+</html>
